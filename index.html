@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Plastic Injection Moulding Solutions</title>
+<!-- Google Fonts (Optional) -->
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+<!-- Stylesheet -->
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<!-- Navigation Bar -->
+<header>
+  <div class="navbar">
+    <!-- <img src="" alt="">      -->
+     <!-- Add logo of the company and edit with circular shape -->
+    <div class="logo">Mobin Plastic Machines And Spares</div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- Hero Section -->
+<section id="home" class="hero">
+  <div class="hero-content">
+    <h1>Leading Plastic Injection Moulding Machines & Spare Parts</h1>
+    <p>Providing reliable machinery, spare parts, and maintenance solutions for your manufacturing needs.</p>
+    <a href="#products" class="btn">Explore Products</a>
+  </div>
+</section>
+
+<!-- Company Info -->
+<section id="about" class="company-info">
+  <h2>About Our Company</h2>
+  <p><strong>Founder:</strong> John Doe</p>
+  <p>Established in 2005, Plastic Moulding Co has been a trusted provider of high-quality injection moulding machines and spare parts, supporting industries worldwide with innovative solutions and exceptional service.</p>
+</section>
+
+<!-- Spare Parts & Work Info -->
+<section id="spares" class="spares-section">
+  <h2>Spare Parts & Our Works</h2>
+  <div class="spares-container">
+    <div class="spare-item">
+      <img src="/images/screw.jpg" alt="Screw" />
+      <h3>Screw</h3>
+      <p>Melts and transports plastic during injection, ensuring efficient production.</p>
+    </div>
+    <div class="spare-item">
+      <img src="/images/barrel.jpg" alt="Barrel" />
+      <h3>Barrel</h3>
+      <p>Houses the screw and heats plastic to the desired temperature.</p>
+    </div>
+    <div class="spare-item">
+      <img src="/images/ringPlunger.jpg" alt="Ring Plunger" />
+      <h3>Ring Plunger</h3>
+      <p>Ensures precise control of molten plastic flow into the mold.</p>
+    </div>
+    <!-- Add more spare parts as needed -->
+  </div>
+</section>
+
+<!-- Services & Client Work -->
+<section id="services" class="services-section">
+  <h2>Our Services & Client Work</h2>
+  <p>We offer comprehensive maintenance, repair, and spare parts supply to keep your production line running smoothly. Our experienced team provides tailored solutions to meet your specific needs, ensuring minimal downtime and maximum efficiency.</p>
+</section>
+
+<!-- Feedbacks -->
+<section id="feedback" class="feedback-section">
+
+  <h2>Customer Feedback</h2>
+  <div class="bgimg">
+  <div class="feedbacks">
+    <div class="feedback">
+      <p>"Excellent service and quality spare parts. Highly recommended!"</p>
+      <h4>- Client A</h4>
+    </div>
+    <div class="feedback">
+      <p>"Prompt support and reliable machinery. Our production has improved significantly."</p>
+      <h4>- Client B</h4>
+    </div>
+  </div>
+  </div>
+</section>
+
+<!-- Contact Us Form -->
+<section id="contact" class="contact-section">
+  <h2>Contact Us</h2>
+  <form id="contactForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required />
+
+    <label for="number">Number:</label>
+    <input type="tel" id="number" name="number" required />
+
+    <label for="company">Company Name:</label>
+    <input type="text" id="company" name="company" />
+
+    <label for="email">Email ID:</label>
+    <input type="email" id="email" name="email" required />
+
+    <label for="spare">Select Spare Part:</label>
+    <select id="spare" name="spare" required>
+      <option value="">--Select Spare--</option>
+      <option value="Screw">Screw</option>
+      <option value="Barrel">Barrel</option>
+      <option value="Ring Plunger">Ring Plunger</option>
+      <!-- Add more options as needed -->
+    </select>
+
+    <label for="remark">Remarks:</label>
+    <textarea id="remark" name="remark"></textarea>
+
+    <button type="submit">Submit</button>
+  </form>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="footer-container">
+    <div class="footer-part">
+      <h4>Head Office</h4>
+      <p>Plastic Moulding Co</p>
+      <p>123 Industry Road, City, Country</p>
+      <p>Email: info@plasticmouldingco.com</p>
+      <p>Contact: +123-456-7890</p>
+    </div>
+    <div class="footer-part">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </div>
+    <div class="footer-part social-media">
+      <h4>Follow Us</h4>
+      <a href="#" target="_blank">LinkedIn</a>
+      <a href="#" target="_blank">Instagram</a>
+      <a href="#" target="_blank">Twitter</a>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>© 2024 Plastic Moulding Co. All rights reserved.</p>
+  </div>
+</footer>
+
+<!-- JavaScript for form -->
+<script>
+  document.getElementById('contactForm').addEventListener('submit', function(e){
+    e.preventDefault();
+    alert('Thank you for your inquiry! We will contact you soon.');
+    this.reset();
+  });
+</script>
+</body>
+</html>
